@@ -1,0 +1,306 @@
+ #root {
+  margin: 0;
+  padding: 0;
+}
+/* NavBar */
+
+.navBtn {
+  padding-left: 5px;
+}
+
+.cls-item-spacing{
+  margin-right: 10px;
+}
+/* Header */
+.cls-container-header {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-image: url('./assets/img/headerPizzaDesafio.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.clsOpacidad {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cls-text-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  width: 800px;
+}
+div > header > div > h2{
+  font-size: 40px;
+}
+div > header > div > h4{
+  padding-top: 10px;
+  text-decoration-line: underline;
+  font-size: 15px;
+}
+/* Cards */
+.cls-tamannio-cards{
+  width: 300px;
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pizza-tamannio-cards{
+  width: 300px;
+}
+
+.cls-tamannio-ingredientes{
+  font-size: 12px;
+}
+
+.jc-center-card {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+/* Form  */
+
+.FormStyle {
+  background-image: url(https://images.jazelc.com/uploads/karlklementforddecatur-m2en/Pizza-near-Decatur.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  padding-top: 30px ;
+}
+
+form h2 {
+  color: #ffffff;  
+}
+
+#FormDivs {
+  padding: 20px 0 20px ;
+}
+
+/* Cart  */
+.imgCart {
+  height: 150px;
+  border-radius: 15px;
+}
+
+.jcse {
+  justify-content: space-evenly;
+  padding: 4rem;
+  margin-bottom: 4rem;
+}
+
+#namePriceCart {
+    display: flex;
+    width: 350px;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btnSpaceFlex {
+  display: flex;
+    align-items: center;
+}
+
+#QuantyCart {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.divTotalCart {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Footer */
+.cls-formato-footer{
+  width:auto;
+  display:flex;
+  align-content:center;
+  justify-content:center;
+  background:#202529;
+  color:#ffffff;
+  padding:10px 0px 0px 0px;
+}
+
+.e404 {
+  position: relative;
+  width: 50%;
+  height: 80vh;
+  background-image: url('./assets/img/e404.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#E404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Profile  */
+
+.profile-container {
+    background-image: url(https://images.jazelc.com/uploads/karlklementforddecatur-m2en/Pizza-near-Decatur.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding-top: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ddd;
+}
+
+.email {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #06cdff;
+}
+
+.logout-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.cart-home {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.cart-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.cart-item-details {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.cart-item-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.cart-item-price {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.cart-item-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.cart-item-btn:hover {
+  background-color: #0056b3;
+}
+
+.cart-item-quantity-text {
+  margin: 0 10px;
+  font-size: 1rem;
+}
+
+.cart-total {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cart-pay-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cart-pay-btn:hover {
+  background-color: #218838;
+}
+
+.ingredients-section {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
